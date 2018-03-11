@@ -1,0 +1,19 @@
+name: sample
+version: 0+dev.1
+commit_hash: 991dc7d
+uncommitted_changes: true
+jobs:
+- name: named
+  version: 8a255362e37ec1caec85eda03d0003a567d202f2
+  fingerprint: 8a255362e37ec1caec85eda03d0003a567d202f2
+  sha1: 68a8751e47906660a9e5055e1a77255ba3591092
+- name: webapp
+  version: 39e8a8b9d8259266c909d3f805eec7b226f93659
+  fingerprint: 39e8a8b9d8259266c909d3f805eec7b226f93659
+  sha1: f349ca91c3ebcd8bbdd55cc5118e41590a853069
+packages:
+- name: apache2
+  version: dbcf65ca92e101093e90b339f656b038d34b9b44
+  fingerprint: dbcf65ca92e101093e90b339f656b038d34b9b44
+  sha1: 99146f63fe8bb5e8df3094fde6549d2629fb0698
+  dependencies: []
